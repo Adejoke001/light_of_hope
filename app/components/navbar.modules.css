@@ -1,0 +1,9 @@
+.nav a:hover{
+    color: rgba(136, 7, 136, 0.9);
+}
+.main:hover{
+    background-color: rgb(171, 39, 153);
+    transition: 0.4s;
+    transform: scale(1.1);
+    animation-duration: 100;
+}

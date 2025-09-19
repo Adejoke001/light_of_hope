@@ -1,0 +1,17 @@
+.impact h2:hover{
+    color: purple;
+
+}
+.impact .icon:hover{
+    color: purple;
+    animation: infinite;
+    transition: 0.4s;
+    transform: scale(1.3);
+    animation-duration: 100;
+
+}
+.imp:hover{
+    border:1px solid purple;
+    transition: 0.3s;
+    transform: scale(1.03);
+}

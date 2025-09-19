@@ -1,0 +1,134 @@
+.footerContainer {
+  background-color: rgb(74, 5, 74);
+  padding: 40px 20px;
+  color: white;
+ 
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 5fr 2fr 3fr 2fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainSection {
+  padding-right: 20px;
+}
+
+.mainSection .logo {
+  width: 40%;
+  height: 40%;
+}
+.mainSection p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color:rgb(217, 172, 217) ;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.socialLink {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: background-color 0.3s;
+}
+
+.socialLink:hover {
+  background-color: rgb(224, 55, 159);
+  border-radius: 20%;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: rgb(217, 172, 217);
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+}
+
+.linkList li {
+  margin-bottom: 10px;
+}
+
+.linkList a {
+  color: rgb(217, 172, 217);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.linkList a:hover {
+  color: rgb(240, 253, 250);
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.6;
+  color: rgb(217, 172, 217);
+}
+
+.footerBottom {
+  background-color: #f1f5f9;
+  text-align: center;
+  padding: 15px;
+  color: #334155;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  .footerContent {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .mainSection {
+    grid-column: span 3;
+  }
+  .mainSection .logo {
+    width:60%;
+    height: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerContent {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+  .footerContent p{
+    text-align: center;
+  }
+  .socialLinks {
+    justify-content: center;
+  }
+  .mainSection .logo {
+    width: 50%;
+    height: 50%;
+    justify-self: center;
+  }
+
+  .mainSection {
+    grid-column: span 1;
+  }
+
+  .socialLinks {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 50px;
+  }
+
+  .socialLink {
+    text-align: center;
+  }
+}

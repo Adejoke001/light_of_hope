@@ -1,0 +1,15 @@
+.background-section{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/brief-bg.jpg');
+}
+
+.circle-border:hover{
+  background-color: rgba(116, 6, 218, 0.975);
+  transition: all 0.3s ease-in-out;
+}
