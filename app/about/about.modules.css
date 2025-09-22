@@ -1,0 +1,17 @@
+.button:hover {
+    background-color: rgba(253, 49, 253, 0.877);
+    transform: scale(1.5); 
+    box-shadow: 0 4px 15px rgba(107, 33, 168, 0.3); 
+
+}
+.icon:hover{
+    color: rgba(255, 0, 255, 0.635);
+    transform: scale(1.2);
+
+}
+.intro:hover{
+    background-color: rgba(126, 88, 126, 0.1);
+    transition: all 0.4s ease-in-out;
+    padding: 18px;
+
+}

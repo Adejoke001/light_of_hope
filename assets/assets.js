@@ -27,7 +27,8 @@ import Review4 from './review4.jpg';
 import Review5 from './review5.jpg';
 import Review6 from './review6.jpg';
 import outreach from './outreach.jpg';
-import scholar from './scholar.jpg'
+import scholar from './scholar.jpg';
+import group from './group.jpg';
 
 
 
@@ -62,6 +63,7 @@ export const assets = {
     Review6,
     outreach,
     scholar,
+    group,
 
 
 }
