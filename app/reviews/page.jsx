@@ -2,6 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 import { assets } from '@/assets/assets';
 import * as Icon from "@phosphor-icons/react/dist/ssr";
+import styles from './reviews.modules.css';
+import Link from 'next/link';
 
 const Page = () => {
   // Testimonial data
@@ -107,10 +109,10 @@ const Page = () => {
           ))}
         </div>
         
-        {/* Call to action */}
+       
         <div className="text-center mt-16">
-          <button className="bg-fuchsia-500 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 inline-flex items-center">
-            <span>Read More Stories</span>
+          <button className="read bg-fuchsia-500 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 inline-flex items-center">
+          <Link href='/rform'>  <span>Leave a Review</span></Link>
             <Icon.ArrowRight className="ml-2 w-5 h-5" />
           </button>
         </div>

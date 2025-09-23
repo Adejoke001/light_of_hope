@@ -69,8 +69,8 @@ const page = () => {
 
       {/* Pop-up Modal */}
       {showQuote && (
-        <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center z-50 sm:mb-8">
-          <div className="bg-white rounded-lg p-8 max-w-md mx-4">
+       <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center z-50 mb-10 sm:mb-0">
+          <div className="bg-white rounded-lg p-8 max-w-md mx-4 ">
             <div className="text-center">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Your Quote</h3>
               <p className="text-gray-600 italic mb-6">{currentQuote}</p>
