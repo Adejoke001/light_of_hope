@@ -44,13 +44,13 @@ const Footer = () => {
           </div>
           
           <div className={styles.column}>
-            <h3>Services</h3>
+            <h3>projects</h3>
             <ul className={styles.linkList}>
-              <li><a href="#">24/7 Counseling Support</a></li>
-              <li><a href="#">Couples Therapy</a></li>
-              <li><a href="#">Individual Counseling</a></li>
-              <li><a href="#">Premarital Counseling</a></li>
-              <li><a href="#">Online Counseling</a></li>
+              <li><a href="#">Empowerment</a></li>
+              <li><a href="#">Free Education</a></li>
+              <li><a href="#">Healthcare Access</a></li>
+              <li><a href="#">Disaster Relief</a></li>
+              <li><a href="#">Community Development</a></li>
             </ul>
           </div>
           

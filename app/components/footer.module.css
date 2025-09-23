@@ -40,7 +40,7 @@
 }
 
 .socialLink:hover {
-  background-color: rgb(224, 55, 159);
+  color: rgb(224, 55, 159);
   border-radius: 20%;
 }
 
@@ -94,8 +94,8 @@
     grid-column: span 3;
   }
   .mainSection .logo {
-    width:60%;
-    height: 60%;
+    width:55%;
+    height: 55%;
   }
 }
 
@@ -103,19 +103,13 @@
   .footerContent {
     grid-template-columns: 1fr;
     gap: 20px;
-    align-items: center;
-    justify-items: center;
+    
   }
-  .footerContent p{
-    text-align: center;
-  }
-  .socialLinks {
-    justify-content: center;
-  }
+  
   .mainSection .logo {
     width: 50%;
     height: 50%;
-    justify-self: center;
+    
   }
 
   .mainSection {
@@ -128,7 +122,5 @@
     padding-bottom: 50px;
   }
 
-  .socialLink {
-    text-align: center;
-  }
+ 
 }
