@@ -50,7 +50,7 @@ const page = () => {
             ensure the well-being of children in need.
           </p>
           <button className="text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
 
@@ -68,7 +68,7 @@ const page = () => {
             resources to empower children through knowledge.
           </p>
           <button className="btn text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
 
@@ -86,7 +86,7 @@ const page = () => {
             training, and social activities to foster a sense of belonging.
           </p>
           <button className="btn text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
 
@@ -104,7 +104,7 @@ const page = () => {
             their educational dreams without financial barriers.
           </p>
           <button className="btn text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
 
@@ -122,7 +122,7 @@ const page = () => {
             healthcare services to underserved children and communities.
           </p>
           <button className="btn text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
 
@@ -141,7 +141,7 @@ const page = () => {
             thrive.
           </p>
           <button className="btn text-white bg-purple-600 p-2.5 mt-4 rounded-full">
-            <Link href="">Donate Now</Link>
+            <Link href="/donate">Donate Now</Link>
           </button>
         </div>
       </div>
