@@ -49,7 +49,7 @@ const page = () => {
             </li>
           </ul>
           <button className="main bg-purple-800 text-white rounded hidden md:block md:border-1 lg:border-2 rounded-4 px-5.5 md:py-1 py-1.5">
-            <Link href='/form'>Volunteer</Link>
+            <Link href='/volunteer'>Volunteer</Link>
           </button>
 
           <button className="block md:hidden ml-3" onClick={openMenu}>
@@ -75,7 +75,7 @@ const page = () => {
             </li>
            
             <li onClick={closeMenu}>
-              <Link href="/Fundraising">Fundraising</Link>
+              <Link href="/fundraising">Fundraising</Link>
             </li>
             <li onClick={closeMenu}>
               <Link href="/contact">Contact</Link>
